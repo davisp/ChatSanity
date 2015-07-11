@@ -1,0 +1,10 @@
+## Interface: 60200
+## Version: 1.0
+## Title: ChatSannity
+## Notes: Makes global chat usable
+## Author: Mcpallynuts @ US-Illidan
+## X-Curse-Packaged-Version: v1.0
+## X-Curse-Project-Name: ChatSannity
+## X-Curse-Project-ID: chatsannity
+
+ChatSannity.lua
