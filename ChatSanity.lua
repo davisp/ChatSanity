@@ -32,12 +32,11 @@ local function filter(self, event, msg, sender, ...)
     if string.match(msg, "{%a%a?%d+}") then
         return true
     end
-    data = sender .. msg
-    if recents[data] == nil then
-        recents[data] = time()
-    else
+    data = sender .. ": " .. msg
+    if recents[data] ~= nil then
         return true
     end
+    recents[data] = time()
     now = time()
     for k, v in pairs(recents) do
         if now - v > 300 then
