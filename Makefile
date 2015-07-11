@@ -1,9 +1,9 @@
 all:
-	rm -rf ./ChatSannity
-	mkdir -p ./ChatSannity
-	cp ChatSannity.* ./ChatSannity/
-	zip -r ChatSannity-v`git describe --tags`.zip ./ChatSannity
+	rm -rf ./ChatSanity
+	mkdir -p ./ChatSanity
+	cp ChatSanity.* ./ChatSanity/
+	zip -r ChatSanity-v`git describe --tags`.zip ./ChatSanity
 
 clean:
-	rm -rf ./ChatSannity
-	rm -f ./ChatSannity-v*.zip
+	rm -rf ./ChatSanity
+	rm -f ./ChatSanity-v*.zip
